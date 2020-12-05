@@ -1,0 +1,6 @@
+ def function():
+      num = input("Type a number between 10 and 20: ")
+      if int(num) > 10 and int(num) < 20:
+          print("Yaaas", num ,"is between 10 and 20")
+      else:
+          print("boo!")
